@@ -1,0 +1,34 @@
+.input-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 0 10%;    
+}
+
+.input-box textarea{
+  height: 100px;
+  resize: none;
+}
+
+.input-field{
+  width: 80%;
+  margin: 8px 0; /* เพิ่ม margin ตามต้องการ */
+  padding: 12px; /* เพิ่ม padding ตามต้องการ */
+  box-sizing: border-box; /* ทำให้ padding ไม่เพิ่มขนาดของ element */
+  border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+  border-radius: 4px; /* ทำให้มีมุมโค้ง */
+  font-size: 16px; /* ขนาดตัวอักษร */
+
+}
+
+.input-field:focus{
+  outline: none; /* ลบเส้นขอบสีน้ำเงิน */
+  border-color: #2196F3; /* สีขอบเมื่อเป็น focus */
+  /* box-shadow: 0 0 5px rgba(33, 150, 243, 0.7); เพิ่มเงาเมื่อเป็น focus */
+}
+
+/* .topic-payform{
+  border-bottom: 1px solid #787676;
+  padding-bottom: 5px;
+} */
+

@@ -1,0 +1,9 @@
+.dropdown-bank{
+    margin-right: 800px;
+}
+
+.checkform-button{
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}

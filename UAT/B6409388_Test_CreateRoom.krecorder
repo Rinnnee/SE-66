@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Untitled Test Suite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3001/Addroom<datalist><option>http://localhost:3001/Addroom</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=RoomName<datalist><option>name=RoomName</option><option>id=:r2:</option><option>xpath=//input[@id=':r2:']</option><option>xpath=//div[@id='root']/div/main/form/div/div/div/input</option><option>xpath=//input</option><option>id=:r0:</option></datalist></td><td>B1</td></tr>
+<tr><td>type</td><td>name=Capacity<datalist><option>name=Capacity</option><option>id=:r3:</option><option>xpath=//input[@id=':r3:']</option><option>xpath=//div[@id='root']/div/main/form/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option><option>id=:r1:</option></datalist></td><td>3</td></tr>
+<tr><td>type</td><td>name=Price<datalist><option>name=Price</option><option>id=:r4:</option><option>xpath=//input[@id=':r4:']</option><option>xpath=//div[@id='root']/div/main/form/div/div[3]/div/input</option><option>xpath=//div[3]/div/input</option><option>id=:r2:</option></datalist></td><td>10001</td></tr>
+<tr><td>click</td><td>//*[@id="RoomStatusID"]<datalist><option>xpath=//body</option><option>css=body</option><option>xpath=//ul[@id=':r3:']</option><option>xpath=//ul[@id='demo-simple-select']</option><option>//*[@id="root"]/div/main/form/div/div[4]/div/input</option><option>/html/body/div[1]/div/main/form/div/div[4]/div/input</option><option>//*[@id="demo-simple-select"]</option><option>//*[@id="RoomStatusID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r3:"]/li[1]<datalist><option>//*[@id=":r3:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="RoomTypeID"]<datalist><option>//*[@id="demo-simple-select"]</option><option>//*[@id="RoomTypeID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r4:"]/li[1]<datalist><option>//*[@id=":r4:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="DormitoryID"]<datalist><option>//*[@id="DormitoryID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r5:"]/li[1]<datalist><option>//*[@id=":r5:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//div[@id='root']/div/main/form/div/div[7]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Dormitory'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Dormitory'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cancle'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Create']/parent::*</option><option>xpath=//div[7]/button</option><option>css=button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-fullWidth.css-3prhrl-MuiButtonBase-root-MuiButton-root</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/main<datalist><option>xpath=//div[@id='root']/div/main</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ห้องพัก'])[1]/following::main[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='สร้างห้องพัก'])[1]/following::main[1]</option><option>xpath=//main</option><option>css=main.css-yfo96e</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3001/Addroom<datalist><option>http://localhost:3001/Addroom</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=RoomName<datalist><option>id=:r0:</option><option>name=RoomName</option><option>xpath=//input[@id=':r0:']</option><option>xpath=//div[@id='root']/div/main/form/div/div/div/input</option><option>xpath=//input</option><option>name=Capacity</option></datalist></td><td>B1220003</td></tr>
+<tr><td>type</td><td>name=Capacity<datalist><option>id=:r0:</option><option>name=RoomName</option><option>xpath=//input[@id=':r0:']</option><option>xpath=//div[@id='root']/div/main/form/div/div/div/input</option><option>xpath=//input</option><option>name=Capacity</option></datalist></td><td>4</td></tr>
+<tr><td>type</td><td>name=Price<datalist><option>id=:r1:</option><option>name=Capacity</option><option>xpath=//input[@id=':r1:']</option><option>xpath=//div[@id='root']/div/main/form/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option><option>name=Price</option></datalist></td><td>10000</td></tr>
+<tr><td>click</td><td>//*[@id="RoomStatusID"]<datalist><option>id=:r1:</option><option>name=Capacity</option><option>xpath=//input[@id=':r1:']</option><option>xpath=//div[@id='root']/div/main/form/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option><option>//*[@id="RoomStatusID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r3:"]/li[1]<datalist><option>id=:r2:</option><option>name=Price</option><option>xpath=//input[@id=':r2:']</option><option>xpath=//div[@id='root']/div/main/form/div/div[3]/div/input</option><option>xpath=//div[3]/div/input</option><option>//*[@id=":r3:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="RoomTypeID"]<datalist><option>id=:r2:</option><option>name=Price</option><option>xpath=//input[@id=':r2:']</option><option>xpath=//div[@id='root']/div/main/form/div/div[3]/div/input</option><option>xpath=//div[3]/div/input</option><option>//*[@id="RoomTypeID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r4:"]/li[1]<datalist><option>//*[@id=":r4:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="DormitoryID"]<datalist><option>//*[@id="DormitoryID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r5:"]/li[1]<datalist><option>//*[@id=":r5:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/main<datalist><option>xpath=//div[@id='root']/div/main</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test3</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3001/Addroom<datalist><option>http://localhost:3001/Addroom</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=RoomName<datalist><option>name=RoomName</option></datalist></td><td>B1111112</td></tr>
+<tr><td>type</td><td>name=Capacity<datalist><option>name=Capacity</option></datalist></td><td>3</td></tr>
+<tr><td>type</td><td>name=Price<datalist><option>name=Price</option></datalist></td><td>0</td></tr>
+<tr><td>click</td><td>//*[@id="RoomStatusID"]<datalist><option>//*[@id="RoomStatusID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r3:"]/li[1]<datalist><option>//*[@id="RoomTypeID"]</option><option>//*[@id=":r3:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="RoomTypeID"]<datalist><option>//*[@id="RoomTypeID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r4:"]/li[1]<datalist><option>//*[@id=":r4:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="DormitoryID"]<datalist><option>//*[@id="DormitoryID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r5:"]/li[1]<datalist><option>//*[@id=":r5:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/main<datalist><option>xpath=//div[@id='root']/div/main</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test4 ผ่านหมด</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3001/Addroom<datalist><option>http://localhost:3001/Addroom</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=RoomName<datalist><option>name=RoomName</option></datalist></td><td>B1111112</td></tr>
+<tr><td>type</td><td>name=Capacity<datalist><option>name=Capacity</option></datalist></td><td>3</td></tr>
+<tr><td>type</td><td>name=Price<datalist><option>name=Price</option></datalist></td><td>10000</td></tr>
+<tr><td>click</td><td>//*[@id="RoomStatusID"]<datalist><option>//*[@id="RoomStatusID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r3:"]/li[1]<datalist><option>//*[@id="RoomTypeID"]</option><option>//*[@id=":r3:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="RoomTypeID"]<datalist><option>//*[@id="RoomTypeID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r4:"]/li[1]<datalist><option>//*[@id=":r4:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="DormitoryID"]<datalist><option>//*[@id="DormitoryID"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id=":r5:"]/li[1]<datalist><option>//*[@id=":r5:"]/li[1]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/main<datalist><option>xpath=//div[@id='root']/div/main</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

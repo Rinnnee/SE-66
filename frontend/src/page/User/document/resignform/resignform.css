@@ -1,0 +1,56 @@
+
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-box{
+    
+    background-color: rgb(221, 195, 195);
+    width: 70%;
+    height: 70%;
+    
+}
+.description{
+    width: 50%;
+    height: 30px;
+    margin-left: 70px;
+}
+.description-box{
+    display: flex;
+    margin-top: 20px;
+    
+    justify-content: left;
+    align-items: center;
+}
+.input-textbox{
+    display: flex;
+    
+}
+.text-box-resign p{
+    /* margin-right: 90px;
+    margin-top: 20.5px; */
+    padding: 5px 0;
+}
+.input-box-resign .input-field{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    
+}
+.input-box-resign{
+    /* border: red solid; */
+    width: 500px;
+    padding: 9px 0;
+
+}
+
+.confirm-button{
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+}
